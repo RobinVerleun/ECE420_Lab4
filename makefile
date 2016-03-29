@@ -9,3 +9,6 @@ smain:
 
 dtrim:
 	gcc util/datatrim.c -o datatrim
+
+tester:
+	gcc util/serialtester.c util/Lab4_IO.c -o serialtester -lm
